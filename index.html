@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>  
+      <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="simonstyle.css" />
+    <meta charset="utf-8" />
+    <title>Simon Says</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <h1>Simon</h1>
+        </div>
+        <div id="boardcontainer">
+            <div id="box0" class="tile greenbox"></div>
+            <div id="box1" class="tile redbox"></div>
+            <div id="box2" class="tile yellowbox"></div>
+            <div id="box3" class="tile bluebox"></div>
+        </div>
+        <div id="buttoncontainer">
+            <span id="counter">--</span>
+            <button id="start">Start</button>
+            <button id="strict">Strict On</button>            
+        </div>
+        <div id="textbox">
+            <strong>Instructions:</strong>
+            <ul>
+                <li>Press 'Start' above to play</li>
+                <li>Watch/listen/match the pattern</li>
+                <li>Tempo increases on rounds 5, 9, and 13</li>
+                <li>'Strict On' means one mistake and you start again with a new pattern</li>
+                <li>Finish level 16 to win!</li>
+            </ul>
+        </div>
+    </div>
+
+  <audio id="sound0">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="sound1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="sound2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="sound3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3" />
+    </audio>
+
+ 
+
+</body>
+</html>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
