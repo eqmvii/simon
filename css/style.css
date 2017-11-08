@@ -1,6 +1,6 @@
 body
 {
-    background-color: #d1d1d1;
+    background-color: #f1f0f0;
     font-family: Consolas, 'Lucida Console', 'Courier New', 'Trebuchet MS', Arial, sans-serif;
 }
 
@@ -147,4 +147,8 @@ button:hover
   background: #ff6666;
   text-decoration: none;
   cursor: pointer;
+}
+
+.centered {
+    text-align: center;
 }
